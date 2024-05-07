@@ -16,13 +16,14 @@ export class RegistracijeComponent {
 
     ngOnInit() {
         this.getVozila();
+
     }
 
     getVozila() {
       this.registracijeSerivce.getAllVozila().subscribe((vozila) => {
         vozila.forEach((vozilo) => this.vozila.push(vozilo));
+        console.log(vozila);
       });
-      console.log(this.vozila);
     }
 
 }
