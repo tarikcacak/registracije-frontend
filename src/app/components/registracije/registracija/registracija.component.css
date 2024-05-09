@@ -1,0 +1,14 @@
+.vozilo-detalj {
+    display: table-cell;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+}
+
+.divider {
+    display: table-cell;
+    width: 1px;
+    text-align: center;
+    border-bottom: 1px solid #ccc; 
+    border-right: 1px solid #ccc;
+}

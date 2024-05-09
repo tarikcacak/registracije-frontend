@@ -3,3 +3,12 @@
     font-weight: bold;
     font-family: 'Helvetica', sans-serif;
 }
+
+.vozilo-detalji-tabela {
+    display: table;
+    width: 100%;
+}
+
+.vozilo-detalji-red {
+    display: table-row;
+  }

@@ -1,1 +1,10 @@
 <h1 class="reg-title">Registracije</h1>
+<h2>Vozila:</h2>
+<div class="vozilo-detalji-tabela">
+    <app-registracija
+        class="vozilo-detalji-red"
+        *ngFor="let vozilo of vozila"
+        [vozilo]="vozilo"
+        (click)="onRegistracijaClicked(vozilo.voziloId)">
+    </app-registracija>
+</div>
